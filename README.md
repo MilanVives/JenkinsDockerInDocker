@@ -1,8 +1,8 @@
-# Custom Jenkins integration running in a DOcker Container with Docker tools installed
+# Custom Jenkins integration running in a Docker Container with Docker tools installed
 
 Steps:
 
-1. Build the custom Jenkins image from the DOckerfile in ./CustomJenkinsWithDocker
+1. Build the custom Jenkins image from the Dockerfilev2 in ./CustomJenkinsWithDocker
 ```
 docker image build -t custom-jenkins-docker .
 ```
